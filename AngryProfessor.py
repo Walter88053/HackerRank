@@ -19,7 +19,7 @@ def AngryProfessor(k, a):
 
 if __name__ == '__main__':
     # Validate the number of arguments
-    print(sys.argv)
+#    print(sys.argv)
     if len(sys.argv) != 3:
         print("Usage: AngryProfessor.py <input_file> <output_file>")
         sys.exit(1)  # Exit with an error code
