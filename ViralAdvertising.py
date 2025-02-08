@@ -11,7 +11,7 @@ def viralAdvertising(n):
     for i in range(1, n+1):
         liked = shared//2
         cumulative += liked
-        shared = liked * 3
+        shared = liked * 3#
     return cumulative
 
 print()
@@ -21,5 +21,9 @@ print(viralAdvertising(3))
 print(viralAdvertising(4))
 print(viralAdvertising(5))
 print(viralAdvertising(6))
+#print(viralAdvertising(7))
+#print(viralAdvertising(8))
+#print(viralAdvertising(9))
+#print(viralAdvertising(10))
 
 
