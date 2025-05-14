@@ -35,8 +35,10 @@ def create_linked_list(values):
 
 head1 = create_linked_list([1, 2, 3, 4])
 head2 = create_linked_list([5, 6, 7, 8])
+head3 = create_linked_list([-4, -3, -2, -1])
 reversed_head1 = reverse_linked_list(head1)
 reversed_head2 = reverse_linked_list(head2)
+reversed_head3 = reverse_linked_list(head3)
 
 # Helper function to print the linked list values
 
@@ -52,5 +54,6 @@ def print_linked_list(head):
 print()
 print_linked_list(reversed_head1)
 print_linked_list(reversed_head2)
+print_linked_list(reversed_head3)
 
 
